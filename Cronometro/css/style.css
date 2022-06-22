@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(255, 166, 0), rgb(95, 54, 0));
+    color: white;
+    padding-top: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+.stopwatch {
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 20%;
+}
+
+.stopwatch p {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    width: 180px;
+    margin: 10px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(255, 166, 0);
+}
