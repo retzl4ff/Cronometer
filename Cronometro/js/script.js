@@ -27,13 +27,9 @@ function startTimer(){
     }
     
 }
-    function della(){
-        console.log('eu sou della')
-    }
-
     startButton.onclick = function(){
         clearInterval(Interval)
-        Interval = setInterval(della, 10)        
+        Interval = setInterval(startTimer, 1000)        
     }
 
     stopButton.onclick = function(){
